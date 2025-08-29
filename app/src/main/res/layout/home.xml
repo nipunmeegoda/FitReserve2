@@ -338,7 +338,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@android:drawable/ic_menu_view"
+            android:src="@drawable/ic_home_24"
             android:tint="@color/colorAccentOrange"
             android:scaleType="centerInside" />
 
@@ -356,7 +356,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:src="@android:drawable/ic_menu_myplaces"
+            android:src="@android:drawable/ic_menu_my_calendar"
             android:tint="@color/colorAccentOrange"
             android:scaleType="centerInside" />
     </LinearLayout>

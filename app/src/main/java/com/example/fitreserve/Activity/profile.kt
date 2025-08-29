@@ -19,16 +19,15 @@ class profile : AppCompatActivity() {
             finish()
         }
 
-
         val logout = findViewById<Button>(R.id.btnLogout)
         logout.setOnClickListener {
             startActivity(Intent(this, signin::class.java))
             finish()
         }
 
-        val navProfile = findViewById<ImageView>(R.id.navProfile)
-        navProfile.setOnClickListener {
-            startActivity(Intent(this, profile::class.java))
+        val navHome = findViewById<ImageView>(R.id.navHome)
+        navHome.setOnClickListener {
+            startActivity(Intent(this, home::class.java))
             finish()
         }
 
@@ -39,8 +38,8 @@ class profile : AppCompatActivity() {
             finish()
         }
 
-        val pdirect = findViewById<ImageView>(R.id.navProfile)
-        pdirect.setOnClickListener {
+        val navProfile = findViewById<ImageView>(R.id.navProfile)
+        navProfile.setOnClickListener {
             startActivity(Intent(this, profile::class.java))
             finish()
         }

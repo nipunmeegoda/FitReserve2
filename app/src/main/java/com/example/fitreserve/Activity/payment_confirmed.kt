@@ -26,9 +26,9 @@ class payment_confirmed:  AppCompatActivity() {
             finish()
         }
 
-        val navProfile = findViewById<ImageView>(R.id.navProfile)
-        navProfile.setOnClickListener {
-            startActivity(Intent(this, profile::class.java))
+        val navHome = findViewById<ImageView>(R.id.navHome)
+        navHome.setOnClickListener {
+            startActivity(Intent(this, home::class.java))
             finish()
         }
 
@@ -39,8 +39,8 @@ class payment_confirmed:  AppCompatActivity() {
             finish()
         }
 
-        val pdirect = findViewById<ImageView>(R.id.navProfile)
-        pdirect.setOnClickListener {
+        val navProfile = findViewById<ImageView>(R.id.navProfile)
+        navProfile.setOnClickListener {
             startActivity(Intent(this, profile::class.java))
             finish()
         }
