@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryBackground">
+
+    <!-- Content area (fills remaining space) -->
+    <LinearLayout
+        android:id="@+id/confirmed"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <!-- Booking Confirmed text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/booking_confirmed"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorTextPrimary"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Check / checkout image (use your vector or image) -->
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/checkout"
+            android:tint="@color/colorAccentOrange"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="48dp" />
+
+        <!-- Back to Booking button -->
+        <Button
+            android:id="@+id/bBook"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/back_to_booking"
+            android:textAllCaps="false"
+            android:textColor="@color/colorButtonText"
+            android:backgroundTint="@color/colorAccentOrange"
+            android:layout_marginBottom="24dp" />
+
+
+
+    </LinearLayout>
+
+    <!-- Bottom navigation bar (fixed at bottom) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:weightSum="3">
+
+        <ImageView
+            android:id="@+id/navHome"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_menu_view"
+            android:tint="@color/colorAccentOrange"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/navBooking"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_menu_agenda"
+            android:tint="@color/colorAccentOrange"
+            android:scaleType="centerInside" />
+
+        <ImageView
+            android:id="@+id/navProfile"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@android:drawable/ic_menu_myplaces"
+            android:tint="@color/colorAccentOrange"
+            android:scaleType="centerInside" />
+    </LinearLayout>
+
+</LinearLayout>

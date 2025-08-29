@@ -1,0 +1,146 @@
+<resources>
+
+    <string name="app_name">FitReserve</string>
+    <string name="tagline">Your Time.Your Space</string>
+
+
+    <string name="feature1">Private Gym Time</string>
+    <string name="feature_tag">Reserve a personal space for your workout</string>
+    <string name="Continue">Continue</string>
+
+    <string name="book_in_seconds">Book in Seconds</string>
+    <string name="quick_booking">Quick booking. Full control.</string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_in">Sign In</string>
+
+    <string name="sign_in_title">Sign In To FitReserve</string>
+    <string name="sign_in_subtitle">Let’s make today count</string>
+    <string name="email_hint">Email Address</string>
+    <string name="password_hint">Password</string>
+    <string name="no_account">Don’t have an account? </string>
+    <string name="sign_up">Sign Up.</string>
+    <string name="forgot_password">Forgot Password</string>
+
+
+    <string name="signup_title">Sign Up For Free</string>
+    <string name="signup_subtitle">Quickly make your account in 1 minute</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="error_password_mismatch">Passwords don’t match</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="already_have_account">Already have an account?Sign In </string>
+
+    <string name="title_password_reset">Password Reset</string>
+    <string name="subtitle_password_reset">Enter your email to receive a link and set a new password.</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="text_cancel">Cancel</string>
+
+
+
+        <string name="welcome_back_name">Welcome Back, Amami!</string>
+
+        <string name="search">Search</string>
+        <string name="search_hint">Search classes, trainers, plans...</string>
+
+        <string name="get_now">Get Now</string>
+        <string name="our_membership_options">Our Membership Options</string>
+
+        <string name="m_basic">Basic</string>
+        <string name="m_basic_price">Rs. 5,000/month</string>
+        <string name="m_basic_desc">4 sessions, gym access, 60 min each</string>
+
+        <string name="m_premium">Premium</string>
+        <string name="m_premium_price">Rs. 8,000/month</string>
+        <string name="m_premium_desc">8 sessions, gym access, 60 min each</string>
+
+        <string name="m_elite">Elite</string>
+        <string name="m_elite_price">Rs. 12,000/month</string>
+        <string name="m_elite_desc">Unlimited sessions, priority booking</string>
+
+        <string name="group_booking_deals">Group Booking Deals</string>
+        <string name="add_ons">Add-ons</string>
+        <string name="group_left_title">Group of 3 – 60 min</string>
+        <string name="group_left_desc">Rs. 4,500/session\nShared session, save 33%</string>
+        <string name="group_right_title">Group of 2 – 45 min</string>
+        <string name="group_right_desc">Rs. 3,000/session\nShared session, save 25%</string>
+        <string name="addon_left_title">Nutrition Plan</string>
+        <string name="addon_left_desc">Rs. 2,000/month\nPersonalized diet guidance</string>
+        <string name="addon_right_title">Personal Training</string>
+        <string name="addon_right_desc">Rs. 1,500/session\n1-on-1 coaching</string>
+
+    <string name="brand">FitReserve</string>
+    <string name="selected_package">Selected Membership Package:</string>
+    <string name="pkg_basic">Basic</string>
+    <string name="price_5000">Rs.5,000</string>
+    <string name="addon_trainer">Personal trainer</string>
+    <string name="addon_nutrition">Nutrition Plan</string>
+    <string name="price_1500">Rs. 1,500</string>
+    <string name="price_2000">Rs. 2,000</string>
+    <string name="total">Total:</string>
+    <string name="price_6500">Rs.6, 500</string>
+    <string name="confirm_pay">Confirm &amp; Pay</string>
+    <string name="cancel">Cancel</string>
+
+
+    <string name="payment_confirmed">Payment Confirmed!</string>
+    <string name="back_to_home">Back to home</string>
+    <string name="book_a_session">Book a session</string>
+
+
+    <string name="subtitle_schedule">Let’s Schedule your next session</string>
+    <string name="search_placeholder">Search Available Sessions</string>
+    <string name="filter">Filter</string>
+
+    <string name="select_period">Select a period:</string>
+    <string name="slot_1">9:00 - 11:00</string>
+    <string name="slot_2">11:00 - 13:00</string>
+
+    <string name="pax">PAX :</string>
+    <string name="reserve_now">Reserve Now</string>
+
+    <string name="booking_confirmed">Booking Confirmed!</string>
+    <string name="back_to_booking">Back to Booking</string>
+
+
+    <string name="profile_title">Profile</string>
+    <string name="user_name_sample">Amami Gunathilake</string>
+    <string name="user_email_sample">amami123@gmail.com</string>
+
+    <!-- Sections -->
+    <string name="upcoming_sessions">Upcoming Sessions</string>
+    <string name="achievements">Achievements</string>
+    <string name="recent_history">Recent History</string>
+
+    <!-- Upcoming card -->
+    <string name="upcoming_date_1">Aug 28, 2025 – 11:00 AM</string>
+    <string name="upcoming_duration_1">Duration: 2 hr, 1 PAX</string>
+    <string name="status_confirmed_upcoming">Confirmed • Upcoming</string>
+    <string name="btn_cancel_reservation">Cancel Reservation</string>
+
+    <!-- Achievements list -->
+    <string name="achievement_first_booking">First Booking</string>
+    <string name="achievement_early_bird">Early Bird – 6 AM Club</string>
+    <string name="achievement_five_in_week">5 Sessions in 1 Week (Locked)</string>
+
+    <!-- History cards -->
+    <string name="history_date_1">Aug 8, 2025 – 2:00 PM</string>
+    <string name="history_duration_1">Duration: 1.5 hr, Group of 3</string>
+    <string name="status_confirmed_completed">Confirmed • Completed</string>
+
+    <string name="history_date_2">Aug 5, 2025 – 2:00 PM</string>
+    <string name="history_duration_2">Duration: 1.5 hr, solo</string>
+
+    <!-- Footer -->
+    <string name="btn_logout">Log Out</string>
+
+    </resources>
+
+
+
+
+
+
+
+
+

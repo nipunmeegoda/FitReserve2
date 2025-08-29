@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryBackground">#FFFFFF</color> <!-- White -->
+    <color name="colorSecondaryDark">#676C75</color> <!-- Charcoal Gray / Black -->
+    <color name="colorAccentOrange">#FF964D</color> <!-- Warm Orange -->
+
+    <!-- Supportive text colors -->
+    <color name="colorTextPrimary">#1E1E1E</color> <!-- Dark text -->
+    <color name="colorTextSecondary">#5C5C5C</color> <!-- Lighter gray for subtitles -->
+    <color name="colorButtonText">#FFFFFF</color> <!-- White text on orange buttons -->
+    <color name="buttoncolor2">#000000</color>
+    <color name="error">#FF0000</color>
+    <color name="colorDivider">#E6E6E6</color>
+    <color name="colorSearchBg">#F5F6F8</color>
+    <color name="colorCardDim">#66000000</color>
+    <color name="bars">#F2F2F2</color>
+    <color name="colorlight">#1AFF964D</color>
+    <color name="btnconfirm">#ff99cc00</color>
+
+</resources>

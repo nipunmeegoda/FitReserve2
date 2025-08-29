@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/colorPrimaryBackground">
+
+    <!-- Header -->
+    <TextView
+        android:id="@+id/txtAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textColor="@color/colorAccentOrange"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/txtSubtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_schedule"
+        android:textColor="@color/colorSecondaryDark"
+        android:textSize="18sp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Search  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etxtSearch"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight="1"
+            android:hint="@string/search_placeholder"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:background="@android:drawable/edit_text"
+            android:textColor="@color/colorTextPrimary"
+            android:textColorHint="@color/colorTextSecondary" />
+
+        <Button
+            android:id="@+id/btnFilter"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:text="@string/filter"
+            android:textAllCaps="false"
+            android:textColor="@color/colorButtonText"
+            android:backgroundTint="@color/colorAccentOrange" />
+    </LinearLayout>
+
+    <!-- Calendar -->
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
+
+    <!-- Select period -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_period"
+        android:textColor="@color/colorSecondaryDark"
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Slots -->
+    <TextView
+        android:id="@+id/slotOne"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/slot_1"
+        android:textStyle="bold"
+        android:textColor="@color/colorButtonText"
+        android:backgroundTint="@color/colorAccentOrange"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/slotTwo"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:text="@string/slot_2"
+        android:textColor="@color/colorTextPrimary"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/white" />
+
+    <!-- PAX -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pax"
+        android:textColor="@color/colorSecondaryDark"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+
+
+        <EditText
+            android:id="@+id/tvPax"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="1"
+            android:textStyle="bold"
+            android:textColor="@color/colorSecondaryDark" />
+
+
+    </LinearLayout>
+
+    <!-- Reserve -->
+    <Button
+        android:id="@+id/btnReserve"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/reserve_now"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/colorButtonText"
+        android:backgroundTint="@color/colorAccentOrange"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="12dp" />
+
+</LinearLayout>
